@@ -63,10 +63,10 @@ function App() {
       <AppContext.Provider value={value}>
         <SearchBox/>
         <div>
-          <Error error={error}/>
+          <Error/>
         </div>
         <div>
-          <SearchResult result={result} />
+          <SearchResult />
         </div>
       </AppContext.Provider>
     </div>
